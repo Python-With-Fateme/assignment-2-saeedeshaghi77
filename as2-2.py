@@ -1,4 +1,13 @@
-numa= int(input('enter yor number A : '))
-numb= int(input('enter your number B : '))
-x = complex(numa, numb)
-print("complex Number : ", x)
+numa=float(input('enter your number a : '))
+numb=float(input('eenter your number b: '))
+amlgar=str(input('* , / , + , - , ^'))
+if amlgar == '*':
+    print(numa*numb)
+if amlgar == '+':
+    print(numa+numb)    
+if amlgar == '-':
+    print(numa-numb)    
+if amlgar == '/':
+    print(numa/numb)
+if amlgar == '^':
+    print(numa**numb)        
