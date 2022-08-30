@@ -1,13 +1,13 @@
-a=float(input('a: '))
-b=float(input('b: '))
-c=float(input('c: '))
-d=float(input('d: '))
-e=float(input('e: '))
-if a>b and a>c and a>d and a>e : 
-    if b>c and b>d and b>c:
-        if c>d and c>e:
-            if d>e:
-                print( a , b ,c ,d, e)
-            else:
-                print(a, b,c,e,d)    
-  
+a=float (input('enter your number a : '))
+b=float (input('enter your number b : '))
+c=float (input('enter your number c : '))
+d=float (input('enter your number d : '))
+e=float (input('enter your number e : '))
+x=[]
+x.append(a)
+x.append(b)
+x.append(c)
+x.append(d)
+x.append(e)
+x.sort(reverse=True)
+print(x)

@@ -3,11 +3,11 @@ b=float (input('enter your number b : '))
 c=float (input('enter your number c : '))
 d=float (input('enter your number d : '))
 e=float (input('enter your number e : '))
-avrage=(a+b+c+d+e)/5
-print(' your avrage : ', avrage)
-if avrage > 17 :
-    print (' you are momtaz : ')
-if avrage <17 and avrage>12:
-    print ('you are normal ')
-if avrage <12:
-    print('mashroot')        
+x=[]
+x.append(a)
+x.append(b)
+x.append(c)
+x.append(d)
+x.append(e)
+x.sort(reverse=True)
+print(x)
