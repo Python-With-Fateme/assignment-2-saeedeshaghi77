@@ -1,0 +1,13 @@
+a=float (input('enter your number a : '))
+b=float (input('enter your number b : '))
+c=float (input('enter your number c : '))
+d=float (input('enter your number d : '))
+e=float (input('enter your number e : '))
+x=[]
+x.append(a)
+x.append(b)
+x.append(c)
+x.append(d)
+x.append(e)
+x.sort(reverse=True)
+print(x)
